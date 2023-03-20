@@ -5,6 +5,7 @@ from callbacks import register_callbacks
 
 # Define the app
 app = dash.Dash(__name__)
+server = app.server
 
 # Define the layout
 app.layout = layout.main_lo
